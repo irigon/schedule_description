@@ -1,0 +1,20 @@
+Message stats for scenario helsinki1_Group.router:MaxPropRouter_Group.bufferSize:10G_Group.msgTtl:1200_Events1.size:500k,100M
+sim_time: 43200.1000
+created: 1113
+started: 216524
+relayed: 211159
+aborted: 5356
+dropped: 5597
+removed: 155715
+delivered: 891
+delivery_prob: 0.8005
+response_prob: 0.0000
+overhead_ratio: 235.9910
+latency_avg: 6245.4629
+latency_med: 2793.4000
+hopcount_avg: 4.5679
+hopcount_med: 4
+buffertime_avg: 3067.9258
+buffertime_med: 1753.1000
+rtt_avg: NaN
+rtt_med: NaN

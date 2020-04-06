@@ -1,0 +1,20 @@
+Message stats for scenario freiburg1_Group.router:MaxPropRouter_Group.bufferSize:10G_Group.msgTtl:600_Events1.size:500k,100M
+sim_time: 43200.1000
+created: 751
+started: 88238
+relayed: 85565
+aborted: 2637
+dropped: 1887
+removed: 62047
+delivered: 592
+delivery_prob: 0.7883
+response_prob: 0.0000
+overhead_ratio: 143.5355
+latency_avg: 5343.6510
+latency_med: 2654.2000
+hopcount_avg: 4.4206
+hopcount_med: 4
+buffertime_avg: 3429.2105
+buffertime_med: 2094.3000
+rtt_avg: NaN
+rtt_med: NaN

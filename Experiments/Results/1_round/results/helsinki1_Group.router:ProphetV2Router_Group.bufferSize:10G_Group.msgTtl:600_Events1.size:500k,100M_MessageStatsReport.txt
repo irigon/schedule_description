@@ -1,0 +1,20 @@
+Message stats for scenario helsinki1_Group.router:ProphetV2Router_Group.bufferSize:10G_Group.msgTtl:600_Events1.size:500k,100M
+sim_time: 43200.1000
+created: 1113
+started: 428249
+relayed: 415276
+aborted: 12957
+dropped: 371340
+removed: 0
+delivered: 721
+delivery_prob: 0.6478
+response_prob: 0.0000
+overhead_ratio: 574.9723
+latency_avg: 8069.7849
+latency_med: 5228.8000
+hopcount_avg: 4.6560
+hopcount_med: 4
+buffertime_avg: 2151.3702
+buffertime_med: 839.0000
+rtt_avg: NaN
+rtt_med: NaN

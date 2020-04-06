@@ -1,0 +1,20 @@
+Message stats for scenario prague1_Group.router:MaxPropRouter_Group.bufferSize:10G_Group.msgTtl:300_Events1.size:500k,100M
+sim_time: 43200.1000
+created: 1208
+started: 489126
+relayed: 474977
+aborted: 14108
+dropped: 49738
+removed: 359536
+delivered: 966
+delivery_prob: 0.7997
+response_prob: 0.0000
+overhead_ratio: 490.6946
+latency_avg: 4143.3271
+latency_med: 3008.1000
+hopcount_avg: 4.6812
+hopcount_med: 4
+buffertime_avg: 4188.7654
+buffertime_med: 2838.9000
+rtt_avg: NaN
+rtt_med: NaN

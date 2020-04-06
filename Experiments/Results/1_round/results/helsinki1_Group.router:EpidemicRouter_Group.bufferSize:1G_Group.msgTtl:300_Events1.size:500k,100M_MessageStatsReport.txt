@@ -1,0 +1,20 @@
+Message stats for scenario helsinki1_Group.router:EpidemicRouter_Group.bufferSize:1G_Group.msgTtl:300_Events1.size:500k,100M
+sim_time: 43200.1000
+created: 1113
+started: 399009
+relayed: 392506
+aborted: 6487
+dropped: 383537
+removed: 0
+delivered: 200
+delivery_prob: 0.1797
+response_prob: 0.0000
+overhead_ratio: 1961.5300
+latency_avg: 7828.4910
+latency_med: 6859.2000
+hopcount_avg: 17.0200
+hopcount_med: 11
+buffertime_avg: 578.2177
+buffertime_med: 209.5000
+rtt_avg: NaN
+rtt_med: NaN

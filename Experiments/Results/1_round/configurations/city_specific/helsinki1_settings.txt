@@ -1,0 +1,226 @@
+#Scenario.name = helsinki1
+Scenario.nrofHostGroups = 22
+
+
+Group1.groupID = 1_
+Group1.movementModel = TransitMapMovement
+Group1.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/1_stops.csv
+Group1.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/1_schedule.csv
+Group1.routeType = 2
+Group1.nrofHosts = 5
+Group1.okMaps = 1
+
+
+Group2.groupID = 10_
+Group2.movementModel = TransitMapMovement
+Group2.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/10_stops.csv
+Group2.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/10_schedule.csv
+Group2.routeType = 2
+Group2.nrofHosts = 5
+Group2.okMaps = 2
+
+
+Group3.groupID = 10H_
+Group3.movementModel = TransitMapMovement
+Group3.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/10H_stops.csv
+Group3.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/10H_schedule.csv
+Group3.routeType = 2
+Group3.nrofHosts = 5
+Group3.okMaps = 3
+
+
+Group4.groupID = 1H_
+Group4.movementModel = TransitMapMovement
+Group4.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/1H_stops.csv
+Group4.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/1H_schedule.csv
+Group4.routeType = 2
+Group4.nrofHosts = 5
+Group4.okMaps = 4
+
+
+Group5.groupID = 2_
+Group5.movementModel = TransitMapMovement
+Group5.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/2_stops.csv
+Group5.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/2_schedule.csv
+Group5.routeType = 2
+Group5.nrofHosts = 5
+Group5.okMaps = 5
+
+
+Group6.groupID = 2H_
+Group6.movementModel = TransitMapMovement
+Group6.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/2H_stops.csv
+Group6.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/2H_schedule.csv
+Group6.routeType = 2
+Group6.nrofHosts = 4
+Group6.okMaps = 6
+
+
+Group7.groupID = 3_
+Group7.movementModel = TransitMapMovement
+Group7.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/3_stops.csv
+Group7.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/3_schedule.csv
+Group7.routeType = 2
+Group7.nrofHosts = 5
+Group7.okMaps = 7
+
+
+Group8.groupID = 3H_
+Group8.movementModel = TransitMapMovement
+Group8.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/3H_stops.csv
+Group8.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/3H_schedule.csv
+Group8.routeType = 2
+Group8.nrofHosts = 5
+Group8.okMaps = 8
+
+
+Group9.groupID = 4_
+Group9.movementModel = TransitMapMovement
+Group9.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/4_stops.csv
+Group9.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/4_schedule.csv
+Group9.routeType = 2
+Group9.nrofHosts = 5
+Group9.okMaps = 9
+
+
+Group10.groupID = 4H_
+Group10.movementModel = TransitMapMovement
+Group10.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/4H_stops.csv
+Group10.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/4H_schedule.csv
+Group10.routeType = 2
+Group10.nrofHosts = 5
+Group10.okMaps = 10
+
+
+Group11.groupID = 5_
+Group11.movementModel = TransitMapMovement
+Group11.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/5_stops.csv
+Group11.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/5_schedule.csv
+Group11.routeType = 2
+Group11.nrofHosts = 5
+Group11.okMaps = 11
+
+
+Group12.groupID = 5H_
+Group12.movementModel = TransitMapMovement
+Group12.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/5H_stops.csv
+Group12.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/5H_schedule.csv
+Group12.routeType = 2
+Group12.nrofHosts = 5
+Group12.okMaps = 12
+
+
+Group13.groupID = 6_
+Group13.movementModel = TransitMapMovement
+Group13.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/6_stops.csv
+Group13.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/6_schedule.csv
+Group13.routeType = 2
+Group13.nrofHosts = 5
+Group13.okMaps = 13
+
+
+Group14.groupID = 6H_
+Group14.movementModel = TransitMapMovement
+Group14.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/6H_stops.csv
+Group14.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/6H_schedule.csv
+Group14.routeType = 2
+Group14.nrofHosts = 5
+Group14.okMaps = 14
+
+
+Group15.groupID = 6T_
+Group15.movementModel = TransitMapMovement
+Group15.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/6T_stops.csv
+Group15.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/6T_schedule.csv
+Group15.routeType = 2
+Group15.nrofHosts = 5
+Group15.okMaps = 15
+
+
+Group16.groupID = 7_
+Group16.movementModel = TransitMapMovement
+Group16.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/7_stops.csv
+Group16.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/7_schedule.csv
+Group16.routeType = 2
+Group16.nrofHosts = 5
+Group16.okMaps = 16
+
+
+Group17.groupID = 7H_
+Group17.movementModel = TransitMapMovement
+Group17.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/7H_stops.csv
+Group17.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/7H_schedule.csv
+Group17.routeType = 2
+Group17.nrofHosts = 5
+Group17.okMaps = 17
+
+
+Group18.groupID = 8_
+Group18.movementModel = TransitMapMovement
+Group18.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/8_stops.csv
+Group18.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/8_schedule.csv
+Group18.routeType = 2
+Group18.nrofHosts = 5
+Group18.okMaps = 18
+
+
+Group19.groupID = 8H_
+Group19.movementModel = TransitMapMovement
+Group19.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/8H_stops.csv
+Group19.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/8H_schedule.csv
+Group19.routeType = 2
+Group19.nrofHosts = 5
+Group19.okMaps = 19
+
+
+Group20.groupID = 9_
+Group20.movementModel = TransitMapMovement
+Group20.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/9_stops.csv
+Group20.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/9_schedule.csv
+Group20.routeType = 2
+Group20.nrofHosts = 5
+Group20.okMaps = 20
+
+
+Group21.groupID = 9H_
+Group21.movementModel = TransitMapMovement
+Group21.routeFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/9H_stops.csv
+Group21.scheduleFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/9H_schedule.csv
+Group21.routeType = 2
+Group21.nrofHosts = 5
+Group21.okMaps = 21
+
+
+Group22.groupID = S
+Group22.movementModel = StationaryMultiPointMovement
+Group22.stationarySystemNr = 1
+Group22.pointFile = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/stations.wkt
+Group22.nrofHosts = 213
+
+
+MapBasedMovement.nrofMapFiles = 21
+MapBasedMovement.mapFile1 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/1_nodes.wkt
+MapBasedMovement.mapFile2 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/10_nodes.wkt
+MapBasedMovement.mapFile3 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/10H_nodes.wkt
+MapBasedMovement.mapFile4 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/1H_nodes.wkt
+MapBasedMovement.mapFile5 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/2_nodes.wkt
+MapBasedMovement.mapFile6 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/2H_nodes.wkt
+MapBasedMovement.mapFile7 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/3_nodes.wkt
+MapBasedMovement.mapFile8 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/3H_nodes.wkt
+MapBasedMovement.mapFile9 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/4_nodes.wkt
+MapBasedMovement.mapFile10 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/4H_nodes.wkt
+MapBasedMovement.mapFile11 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/5_nodes.wkt
+MapBasedMovement.mapFile12 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/5H_nodes.wkt
+MapBasedMovement.mapFile13 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/6_nodes.wkt
+MapBasedMovement.mapFile14 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/6H_nodes.wkt
+MapBasedMovement.mapFile15 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/6T_nodes.wkt
+MapBasedMovement.mapFile16 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/7_nodes.wkt
+MapBasedMovement.mapFile17 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/7H_nodes.wkt
+MapBasedMovement.mapFile18 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/8_nodes.wkt
+MapBasedMovement.mapFile19 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/8H_nodes.wkt
+MapBasedMovement.mapFile20 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/9_nodes.wkt
+MapBasedMovement.mapFile21 = /home/lento/eclipse-workspace-new/the-one-transit/data/helsinki1/9H_nodes.wkt
+
+
+MovementModel.worldSize = 5862, 7290
+Events1.hosts = 0,317

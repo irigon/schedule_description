@@ -1,0 +1,20 @@
+Message stats for scenario freiburg1_Group.router:EpidemicRouter_Group.bufferSize:100G_Group.msgTtl:300_Events1.size:500k,100M
+sim_time: 43200.1000
+created: 1295
+started: 109797
+relayed: 106507
+aborted: 3286
+dropped: 57914
+removed: 0
+delivered: 1065
+delivery_prob: 0.8224
+response_prob: 0.0000
+overhead_ratio: 99.0066
+latency_avg: 5464.0457
+latency_med: 3216.5000
+hopcount_avg: 4.0563
+hopcount_med: 4
+buffertime_avg: 9348.7528
+buffertime_med: 9731.4000
+rtt_avg: NaN
+rtt_med: NaN
