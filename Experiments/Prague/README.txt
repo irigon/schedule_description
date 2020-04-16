@@ -10,6 +10,8 @@ https://pid.cz/en/lines/trams/
 # Get schedules per line
 https://idos.idnes.cz/praha/spojeni/?lng=E
 
-# Lines
+# Lines that have different ways:
+Line 1. has 1 additional station on the way back. There are 3 stations that differ in general
+	We use the way back that have the same number of stations as the GTFS file
 
 
