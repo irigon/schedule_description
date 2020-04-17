@@ -1,13 +1,25 @@
 from sys import argv
+import argparse
 
-STR = 'x,y'
 hours = '00'
 
-with open (argv[1], 'r') as fd:
+parser = argparse.ArgumentParser()
+parser.add_argument("mini_file", help="file with the minimal description of a schedule")
+parser.add_argument("ini", help="file with the minimal description of a schedule")
+parser.add_argument("end", help="file with the minimal description of a schedule")
+args = parser.parse_args()
+
+print (args.ini, args.end)
+str_normal   = args.ini + ',' + args.end
+str_inverted = args.end + ',' + args.ini
+
+#import pdb; pdb.set_trace()
+STR = str_normal
+with open (args.mini_file, 'r') as fd:
     lines = fd.readlines()
     for line in lines:
         if line.strip() == '':
-            STR = 'y,x'
+            STR = str_inverted
             continue
         parts = line.split()
         if len(parts) < 2:
