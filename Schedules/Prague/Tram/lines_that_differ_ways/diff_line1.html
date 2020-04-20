@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>diff</title>
+<meta name="Generator" content="Vim/8.0">
+<meta name="plugin-version" content="vim7.4_v2">
+<meta name="settings" content="whole_filler,use_css,no_foldcolumn,prevent_copy=">
+<meta name="colorscheme" content="none">
+<style type="text/css">
+<!--
+pre { font-family: monospace; color: #000000; background-color: #ffffff; }
+body { font-family: monospace; color: #000000; background-color: #ffffff; }
+* { font-size: 1em; }
+.Folded { color: #8080ff; background-color: #ffffff; padding-bottom: 1px; }
+.DiffText { background-color: #ff6060; padding-bottom: 1px; font-weight: bold; }
+.DiffAdd { background-color: #8080ff; padding-bottom: 1px; }
+.DiffChange { background-color: #ff40ff; padding-bottom: 1px; }
+.DiffDelete { color: #8080ff; background-color: #00ffff; padding-bottom: 1px; font-weight: bold; }
+-->
+<!--
+table { table-layout: fixed; }
+html, body, table, tbody { width: 100%; margin: 0; padding: 0; }
+th, td { width: 50.0%; }
+td div { overflow: auto; }
+-->
+</style>
+<script type='text/javascript'>
+<!--
+
+/* function to open any folds containing a jumped-to line before jumping to it */
+function JumpToLine()
+{
+  var lineNum;
+  lineNum = window.location.hash;
+  lineNum = lineNum.substr(1); /* strip off '#' */
+
+  if (lineNum.indexOf('L') == -1) {
+    lineNum = 'L'+lineNum;
+  }
+  if (lineNum.indexOf('W') == -1) {
+    lineNum = 'W1'+lineNum;
+  }
+  lineElem = document.getElementById(lineNum);
+  /* Always jump to new location even if the line was hidden inside a fold, or
+   * we corrected the raw number to a line ID.
+   */
+  if (lineElem) {
+    lineElem.scrollIntoView(true);
+  }
+  return true;
+}
+if ('onhashchange' in window) {
+  window.onhashchange = JumpToLine;
+}
+
+-->
+</script>
+</head>
+<body>
+<table border='1' width='100%' id='vimCodeElement'>
+<tr>
+<th>/tmp/test1_sorted</th>
+<th>/tmp/test2_sorted</th>
+</tr><tr>
+<td valign="top"><div>
+<pre>
+Baterie
+Chmelnice
+<span class="DiffAdd">Dělnická</span><span class="DiffAdd">                                                                                                                                    </span>
+Hradčanská 
+Kamenická
+Kněžská luka
+<span class="DiffDelete">----------------------------------------------------------------------------------------------------------------------------------------------</span>
+Krejcárek
+Letenské náměstí
+Libeňský most
+Maniny
+Ohrada
+Ořechovka
+<span class="Folded">+--  4 lines: Palmovka --------------------------------------------------------------------------------------------------------------------</span>
+Sibeliova
+SÍDLIŠTĚ PETŘINY
+Sparta
+SPOJOVACÍ
+Strážní
+Strossmayerovo nám.
+<span class="DiffDelete">----------------------------------------------------------------------------------------------------------------------------------------------</span>
+Větrník
+Vltavská 
+Vojenská nemocnice
+Vozovna Žižkov
+Vozov. Střešovice
+</pre>
+</div></td>
+<td valign="top"><div>
+<pre>
+Baterie
+Chmelnice
+<span class="DiffDelete">----------------------------------------------------------------------------------------------------------------------------------------------</span>
+Hradčanská 
+Kamenická
+Kněžská luka
+<span class="DiffAdd">Korunovační</span><span class="DiffAdd">                                                                                                                                 </span>
+Krejcárek
+Letenské náměstí
+Libeňský most
+Maniny
+Ohrada
+Ořechovka
+<span class="Folded">+--  4 lines: Palmovka --------------------------------------------------------------------------------------------------------------------</span>
+Sibeliova
+SÍDLIŠTĚ PETŘINY
+Sparta
+SPOJOVACÍ
+Strážní
+Strossmayerovo nám.
+<span class="DiffAdd">Tusarova</span><span class="DiffAdd">                                                                                                                                      </span>
+Větrník
+Vltavská 
+Vojenská nemocnice
+Vozovna Žižkov
+Vozov. Střešovice
+</pre>
+</div></td>
+</tr>
+</table>
+</body>
+</html>
+<!-- vim: set foldmethod=manual : -->
+
