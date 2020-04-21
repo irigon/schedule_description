@@ -1,92 +1,92 @@
 #Scenario.name = helsinki1FromGTFSCleaned
 Scenario.nrofHostGroups = 10
 
+Group1.groupID = S
+Group1.movementModel = StationaryMultiPointMovement
+Group1.stationarySystemNr = 1
+Group1.pointFile = data/helsinki1FromGTFSCleaned/stations.wkt
+Group1.nrofHosts = 157
 
-Group1.groupID = 1_
-Group1.movementModel = TransitMapMovement
-Group1.routeFile = data/helsinki1FromGTFSCleaned/1_stops.csv
-Group1.scheduleFile = data/helsinki1FromGTFSCleaned/1_schedule.csv
-Group1.routeType = 2
-Group1.nrofHosts = 29
-Group1.okMaps = 1
-
-
-Group2.groupID = 2_
+Group2.groupID = 1_
 Group2.movementModel = TransitMapMovement
-Group2.routeFile = data/helsinki1FromGTFSCleaned/2_stops.csv
-Group2.scheduleFile = data/helsinki1FromGTFSCleaned/2_schedule.csv
+Group2.routeFile = data/helsinki1FromGTFSCleaned/1_stops.csv
+Group2.scheduleFile = data/helsinki1FromGTFSCleaned/1_schedule.csv
 Group2.routeType = 2
-Group2.nrofHosts = 15
-Group2.okMaps = 2
+Group2.nrofHosts = 29
+Group2.okMaps = 1
 
 
-Group3.groupID = 3_
+Group3.groupID = 2_
 Group3.movementModel = TransitMapMovement
-Group3.routeFile = data/helsinki1FromGTFSCleaned/3_stops.csv
-Group3.scheduleFile = data/helsinki1FromGTFSCleaned/3_schedule.csv
+Group3.routeFile = data/helsinki1FromGTFSCleaned/2_stops.csv
+Group3.scheduleFile = data/helsinki1FromGTFSCleaned/2_schedule.csv
 Group3.routeType = 2
-Group3.nrofHosts = 31
-Group3.okMaps = 3
+Group3.nrofHosts = 15
+Group3.okMaps = 2
 
 
-Group4.groupID = 4_
+Group4.groupID = 3_
 Group4.movementModel = TransitMapMovement
-Group4.routeFile = data/helsinki1FromGTFSCleaned/4_stops.csv
-Group4.scheduleFile = data/helsinki1FromGTFSCleaned/4_schedule.csv
+Group4.routeFile = data/helsinki1FromGTFSCleaned/3_stops.csv
+Group4.scheduleFile = data/helsinki1FromGTFSCleaned/3_schedule.csv
 Group4.routeType = 2
-Group4.nrofHosts = 36
-Group4.okMaps = 4
+Group4.nrofHosts = 31
+Group4.okMaps = 3
 
 
-Group5.groupID = 6T_
+Group5.groupID = 4_
 Group5.movementModel = TransitMapMovement
-Group5.routeFile = data/helsinki1FromGTFSCleaned/6T_stops.csv
-Group5.scheduleFile = data/helsinki1FromGTFSCleaned/6T_schedule.csv
+Group5.routeFile = data/helsinki1FromGTFSCleaned/4_stops.csv
+Group5.scheduleFile = data/helsinki1FromGTFSCleaned/4_schedule.csv
 Group5.routeType = 2
-Group5.nrofHosts = 22
-Group5.okMaps = 5
+Group5.nrofHosts = 36
+Group5.okMaps = 4
 
 
-Group6.groupID = 7_
+Group6.groupID = 6T_
 Group6.movementModel = TransitMapMovement
-Group6.routeFile = data/helsinki1FromGTFSCleaned/7_stops.csv
-Group6.scheduleFile = data/helsinki1FromGTFSCleaned/7_schedule.csv
+Group6.routeFile = data/helsinki1FromGTFSCleaned/6T_stops.csv
+Group6.scheduleFile = data/helsinki1FromGTFSCleaned/6T_schedule.csv
 Group6.routeType = 2
-Group6.nrofHosts = 35
-Group6.okMaps = 6
+Group6.nrofHosts = 22
+Group6.okMaps = 5
 
 
-Group7.groupID = 8_
+Group7.groupID = 7_
 Group7.movementModel = TransitMapMovement
-Group7.routeFile = data/helsinki1FromGTFSCleaned/8_stops.csv
-Group7.scheduleFile = data/helsinki1FromGTFSCleaned/8_schedule.csv
+Group7.routeFile = data/helsinki1FromGTFSCleaned/7_stops.csv
+Group7.scheduleFile = data/helsinki1FromGTFSCleaned/7_schedule.csv
 Group7.routeType = 2
-Group7.nrofHosts = 20
-Group7.okMaps = 7
+Group7.nrofHosts = 35
+Group7.okMaps = 6
 
 
-Group8.groupID = 9_
+Group8.groupID = 8_
 Group8.movementModel = TransitMapMovement
-Group8.routeFile = data/helsinki1FromGTFSCleaned/9_stops.csv
-Group8.scheduleFile = data/helsinki1FromGTFSCleaned/9_schedule.csv
+Group8.routeFile = data/helsinki1FromGTFSCleaned/8_stops.csv
+Group8.scheduleFile = data/helsinki1FromGTFSCleaned/8_schedule.csv
 Group8.routeType = 2
-Group8.nrofHosts = 25
-Group8.okMaps = 8
+Group8.nrofHosts = 20
+Group8.okMaps = 7
 
 
-Group9.groupID = 10_
+Group9.groupID = 9_
 Group9.movementModel = TransitMapMovement
-Group9.routeFile = data/helsinki1FromGTFSCleaned/10_stops.csv
-Group9.scheduleFile = data/helsinki1FromGTFSCleaned/10_schedule.csv
+Group9.routeFile = data/helsinki1FromGTFSCleaned/9_stops.csv
+Group9.scheduleFile = data/helsinki1FromGTFSCleaned/9_schedule.csv
 Group9.routeType = 2
-Group9.nrofHosts = 22
-Group9.okMaps = 9 
+Group9.nrofHosts = 25
+Group9.okMaps = 8
 
-Group10.groupID = S
-Group10.movementModel = StationaryMultiPointMovement
-Group10.stationarySystemNr = 1
-Group10.pointFile = data/helsinki1FromGTFSCleaned/stations.wkt
-Group10.nrofHosts = 157
+
+Group10.groupID = 10_
+Group10.movementModel = TransitMapMovement
+Group10.routeFile = data/helsinki1FromGTFSCleaned/10_stops.csv
+Group10.scheduleFile = data/helsinki1FromGTFSCleaned/10_schedule.csv
+Group10.routeType = 2
+Group10.nrofHosts = 22
+Group10.okMaps = 9 
+
 
 
 MapBasedMovement.nrofMapFiles = 9
@@ -102,4 +102,4 @@ MapBasedMovement.mapFile9 = data/helsinki1FromGTFSCleaned/10_nodes.wkt
 
 
 MovementModel.worldSize = 5869, 7306
-Events1.hosts = 0,307
+Events1.hosts = 0,157

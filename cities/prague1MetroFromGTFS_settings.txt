@@ -1,4 +1,4 @@
-Scenario.name = prague1MetroFromGTFS
+#Scenario.name = prague1MetroFromGTFS
 Scenario.nrofHostGroups = 4
 
 
