@@ -1,39 +1,39 @@
 #Scenario.name = prague1MetroTrue
 Scenario.nrofHostGroups = 4
 
+Group1.groupID = S
+Group1.movementModel = StationaryMultiPointMovement
+Group1.stationarySystemNr = 1
+Group1.pointFile = data/prague1MetroTrue/stations.wkt
+Group1.nrofHosts = 61
 
-Group1.groupID = A_
-Group1.movementModel = TransitMapMovement
-Group1.routeFile = data/prague1MetroTrue/A_stops.csv
-Group1.scheduleFile = data/prague1MetroTrue/A_schedule.csv
-Group1.routeType = 2
-Group1.nrofHosts = 5
-Group1.okMaps = 1
-
-
-Group2.groupID = B_
+Group2.groupID = A_
 Group2.movementModel = TransitMapMovement
-Group2.routeFile = data/prague1MetroTrue/B_stops.csv
-Group2.scheduleFile = data/prague1MetroTrue/B_schedule.csv
+Group2.routeFile = data/prague1MetroTrue/A_stops.csv
+Group2.scheduleFile = data/prague1MetroTrue/A_schedule.csv
 Group2.routeType = 2
-Group2.nrofHosts = 5
-Group2.okMaps = 2
+Group2.nrofHosts = 32
+Group2.okMaps = 1
 
 
-Group3.groupID = C_
+Group3.groupID = B_
 Group3.movementModel = TransitMapMovement
-Group3.routeFile = data/prague1MetroTrue/C_stops.csv
-Group3.scheduleFile = data/prague1MetroTrue/C_schedule.csv
+Group3.routeFile = data/prague1MetroTrue/B_stops.csv
+Group3.scheduleFile = data/prague1MetroTrue/B_schedule.csv
 Group3.routeType = 2
-Group3.nrofHosts = 5
-Group3.okMaps = 3
+Group3.nrofHosts = 31
+Group3.okMaps = 2
 
 
-Group4.groupID = S
-Group4.movementModel = StationaryMultiPointMovement
-Group4.stationarySystemNr = 1
-Group4.pointFile = data/prague1MetroTrue/stations.wkt
-Group4.nrofHosts = 61
+Group4.groupID = C_
+Group4.movementModel = TransitMapMovement
+Group4.routeFile = data/prague1MetroTrue/C_stops.csv
+Group4.scheduleFile = data/prague1MetroTrue/C_schedule.csv
+Group4.routeType = 2
+Group4.nrofHosts = 43
+Group4.okMaps = 3
+
+
 
 
 MapBasedMovement.nrofMapFiles = 3
@@ -43,4 +43,4 @@ MapBasedMovement.mapFile3 = data/prague1MetroTrue/C_nodes.wkt
 
 
 MovementModel.worldSize = 20396, 11280
-Events1.hosts = 0,75
+Events1.hosts = 0,61
